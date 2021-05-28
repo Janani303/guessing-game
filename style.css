@@ -1,47 +1,24 @@
-/* Number Guessing Game CSS */
 
 body {
-	margin: 10px;
-	background-color: #cccccc;
-	font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: yellow;
 }
 
-.button {
-	margin-top: 10px;
-	border-radius: 10px;
-	border-color: #000000;
-	border-style: solid;
-	border-width: 1px;
-        background-color: orange;
-        color: white;
-	width: 20%;
-	padding: 5px;
-	text-align: center;
-	font-weight: bold;
+#number-input {
+  background-color: white;
+  width:150px;
 }
 
-#historyArea {
-	margin-top: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
+#guess {
+  background-color: red;
+  color:white;
+  margin-top:10px;
 }
 
-#game {
-	background-color: #ffffff;
-	border-radius: 10px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: #cccccc;
-	padding: 10px;
-}
-
-#statusArea {
-	font-size: 120%;
-}
-
-#footerArea {
-	text-align: center;
-	margin-top:5px;
-	font-size: 90%;
-	font-style: italic;
+#reset {
+  background-color: red;
+  color:white;
+  margin-top:10px;
+  
 }
